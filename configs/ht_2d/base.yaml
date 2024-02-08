@@ -1,0 +1,4 @@
+extends: defaults.yaml
+
+data_dir: notebooks/datasets/2D_HT_2500_10kevery100
+wandb_project: ht_2d

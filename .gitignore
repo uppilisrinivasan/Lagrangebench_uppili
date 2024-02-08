@@ -1,0 +1,27 @@
+# experiments
+#ckp/
+#rollout/
+#rollouts/
+#output/
+#results_final/
+wandb
+*.out
+
+baselines
+partition_*
+#*.pkl
+
+# dev
+#.vscode
+__pycache__
+*.pyc
+venv*/
+*.egg-info
+#.ruff-cache
+#rollouts
+profile
+dist
+.coverage
+
+# Sphinx documentation
+docs/_build/

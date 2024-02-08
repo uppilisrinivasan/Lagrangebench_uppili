@@ -1,0 +1,9 @@
+extends: rpf_2d/base.yaml
+
+model: painn
+num_mp_steps: 5
+latent_dim: 128
+lr_start: 1.e-4
+
+isotropic_norm: True
+magnitude_features: True

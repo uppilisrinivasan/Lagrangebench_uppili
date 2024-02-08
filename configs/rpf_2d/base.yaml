@@ -1,0 +1,4 @@
+extends: defaults.yaml
+
+data_dir: datasets/2D_RPF_3200_20kevery100
+wandb_project: rpf_2d

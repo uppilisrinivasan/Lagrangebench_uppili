@@ -1,0 +1,1 @@
+/home/uppili11/lagrangebench/lagrangebench_copy/venv/bin/python main.py --gpu=0 --mode=infer --model_dir=ckp/debug_dump/gns_ht2d_20240207-133646 --data_dir=notebooks/datasets/2D_HT_2500_10kevery100 --out_type_infer=vtk --rollout_dir=output/test

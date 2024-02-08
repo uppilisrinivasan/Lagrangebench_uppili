@@ -1,0 +1,8 @@
+extends: rpf_2d/base.yaml
+
+model: segnn
+num_mp_steps: 10
+latent_dim: 64
+lr_start: 1.e-3
+
+isotropic_norm: True

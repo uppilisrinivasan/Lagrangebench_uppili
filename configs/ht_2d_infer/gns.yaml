@@ -1,0 +1,16 @@
+extends: ht_2d/base.yaml
+
+model: gns
+num_mp_steps: 10
+latent_dim: 128
+lr_start: 5.e-4
+step_max: 100
+log_steps: 2
+eval_steps: 20
+eval_n_trajs_infer: -1
+batch_size_infer: 1
+loss_weight:
+  acc: 1.0
+  temp_diff: 1.0
+wandb: False
+noise_std: 0.0003

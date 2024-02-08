@@ -1,0 +1,8 @@
+extends: ldc_3d/base.yaml
+
+model: segnn
+num_mp_steps: 10
+latent_dim: 64
+lr_start: 5.e-4
+
+isotropic_norm: True
